@@ -1,0 +1,20 @@
+.big-card {
+    background : snow;
+    border: 1px solid #000;
+    border-radius: 10px;
+    grid-column: 3/9;
+    grid-row: 3/9;
+    padding : 50px 50px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:414px) {
+    .big-card{
+        grid-column: 1/11;
+        grid-row: 3/11;
+        padding : 25px 25px;
+        font-size: 20px;
+    }
+}

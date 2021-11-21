@@ -1,0 +1,21 @@
+.add-book{
+    align-self: center;
+    justify-self: center;
+    background-color: white ;
+    border: 1px solid darkslateblue;
+    border-radius : 75px;
+    height:50px;
+    width:50px;
+    text-align: center;
+    color : darkslateblue;
+}
+
+.add-book:active{
+    background:darkslateblue;
+    border:1px solid white;
+    color : white;
+}
+
+textarea {
+    resize: none;
+}

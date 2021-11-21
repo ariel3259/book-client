@@ -1,0 +1,14 @@
+.delete-book{
+    background: white;
+    border:1px solid #F00;
+    color:#f00;
+    border-radius:50px;
+    padding : 10px 10px;
+    margin : 25px 25px;
+}
+
+.delete-book:active{
+    background:#f00;
+    border:1px solid white;
+    color: white;
+}

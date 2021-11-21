@@ -1,0 +1,14 @@
+.return-page{
+    color : #aaa;
+    border : 1px solid #aaa;
+    background: white;
+    border-radius:50px;
+    margin: 25px 25px;
+    padding : 10px 10px;
+}
+
+.return-page:active{
+    color:white;
+    border: 1px solid white;
+    background : #aaa;
+}

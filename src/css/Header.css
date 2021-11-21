@@ -1,0 +1,11 @@
+header {
+    grid-column : 1 / 11;
+    grid-row : 1/2;
+    background : darkslateblue;
+    color: #fff;
+    text-align: start;
+    padding : 25px 10px;
+    border-bottom: 2.5px solid #000; 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

@@ -1,0 +1,16 @@
+.card-container{
+    grid-column: 1/11;
+    height: 100vh;
+    border: 2.5px solid #000;
+    background: lightgray;
+    display : flex;
+    flex-flow: row wrap;
+    padding : 25px 25px ;
+}
+
+@media screen and (max-width :414px) {
+    .card-container{
+        height:auto;
+        flex-direction: column;
+    }
+}
